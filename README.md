@@ -15,6 +15,9 @@ One of the main benefits of cloud computing is the saving of price. The reason f
 - SaaS allows user to connect to and use cloud apps over the internet,
 - IaaS is a type of cloud computing service that offers essential virtualized computing, storage and network resources
 - 
+### cap Ex vs op Ex
+
+<img src="https://www.suneratech.com/wp-content/uploads/2020/02/capex-opex-877x1024.png"/>
 
 ## How to start a virtual machine in AWS
 
