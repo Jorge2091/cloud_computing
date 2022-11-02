@@ -43,3 +43,10 @@ proxy_pass http://localhost:3000;
 ```
 5. save the file and run `sudo systemctl restart nginx && sudo systemctl enable nginx`
 6. test the proxy and everything should be running well
+
+
+# 2 tier Architecture
+
+<img src="./images/arch.png"/>
+
+A tier two architecture AWS is one where all servers and database are located in one Availability zone as shown in the diagram. this connection happens through the port 3000 inside the web server, and the database will be located in another port for example port 27017.
