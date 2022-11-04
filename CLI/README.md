@@ -6,6 +6,9 @@ Amazon, as of 2015, offers Cross Region Replication for S3. which can reduce the
 
 <img src="https://miro.medium.com/max/580/1*DHe24MbDHtbkOeIJzxrfdA.png"/>
 
+## S3 use cases
+AWS S3 has different classes of storage to meet the consumer needs, and each one will be of different cost and maintenance.
+
 ## how to configure S3
 
 When creating to AWS, we are given a secret key, access key and so on, using this unique keys, we are able to connect to our machine in aws and also with this, we can make a S3 bucket.<br/>
@@ -33,3 +36,9 @@ sudo pip3 install awscli
 aws configure
 ```
 and then fill in your unique access key, secret key, output=json, region=eu-west-1
+
+7. test if everything is okay
+```
+aws s3 ls
+```
+will come out as list of bucket that is connected to your organization or connection to your accessibility **if any**.

@@ -13,7 +13,7 @@ Another possibility is to upload work into github and use the normal function `g
 
 ## Get the app working
 
-1. need to install all requirements. nodejs and pm2, we can use my past repository for this https://github.com/Jorge2091/eng130_virtualisation#vagrant-installations-inside-virtual-box
+1. need to install all requirements. nodejs and pm2, we can use my past repository for this <a href="https://github.com/Jorge2091/eng130_virtualisation#vagrant-installations-inside-virtual-box"> HERE</a>
 2. install nginx and have reverse proxy to link to port 3000 by going into the default file, this is also shown in the link above.
 3. create env Variable, this can be done by going to `sudo nano ~/. bashrc`.
 4. npm start inside where the app.js is, and website will be working.
